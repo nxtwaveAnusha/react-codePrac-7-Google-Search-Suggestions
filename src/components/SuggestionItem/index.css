@@ -1,0 +1,36 @@
+.list-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  list-style-type: none;
+}
+
+.suggestionItem {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin: 0;
+}
+@media screen and (min-width: 768px) {
+  .suggestionItem {
+    font-size: 20px;
+  }
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.img-size {
+  width: 16px;
+  height: 16px;
+}
+@media screen and (min-width: 768px) {
+  .img-size {
+    height: 24px;
+    width: 24px;
+  }
+}
